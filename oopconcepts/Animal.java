@@ -1,6 +1,6 @@
 package oopconcepts;
 
-public class Animal {
+public abstract class Animal {
 	private String name;
 	private int age;
 	static String className="Animal";
@@ -15,6 +15,8 @@ public class Animal {
 	{
 		
 	}
+	
+	public abstract void dancing();
 	
 	public String getName() {
 		return name;

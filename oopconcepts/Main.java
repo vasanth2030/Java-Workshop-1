@@ -29,5 +29,5 @@ public class Main {
 		dog.eat("Chicken");
 		Labrador lab=new Labrador();
 		lab.eat();
-	}
+			}
 }
